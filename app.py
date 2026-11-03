@@ -22,7 +22,7 @@ if not os.path.exists('static'):
 CAPTCHA_TEXT_LENGTH = 6
 # Global variable to store the current answer 
 # (Note: In real cloud apps, we'd use a database/session)
-#current_captcha_answer = ""
+current_captcha_answer = ""
 
 """Generates a random string of uppercase letters and digits."""
 def generate_random_text():
